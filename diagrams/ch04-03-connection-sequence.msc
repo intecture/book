@@ -1,0 +1,23 @@
+msc {
+    api [label="API"],
+    auth [label="Auth Server"],
+    agent [label="Agent"];
+
+    |||;
+    api note api        [label="Implemented in your code"],
+    agent note agent    [label="Running on managed host"];
+    |||;
+    ---             [label="Agent start up"];
+    |||;
+    agent=>agent    [label="start"];
+    agent->auth     [label="request user certs"];
+    agent<<auth     [label="user certs"];
+    |||;
+    ---             [label="Run project"];
+    |||;
+    api->auth       [label="lookup Agent public key"];
+    api<<auth       [label="public key"];
+    api->agent      [label="connect to Agent"];
+    agent=>agent    [label="validate user public key"];
+    agent->api      [label="connect OK"];
+}

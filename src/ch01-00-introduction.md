@@ -1,12 +1,8 @@
 # Introduction
 
-Welcome to Intecture, the systems management tool.
+Welcome to Intecture, the systems management tool!
 
-Ok, let's pause there for a tic. Firstly, why do people say "Welcome to \<blah\>" as their opening gambit? You may as well say "Welcome to your chair!" I haven't invited you to go anywhere. I suppose it's because people writing docs lack the necessary imaginat... Nevermind I answered my own question.
-
-Secondly, I acknowledge that I'm taking liberties with the word "the" in the strapline -  _the systems management tool_. But I'm sure you'll agree that it sounds better than "Welcome to Intecture, _YASMT_".
-
-Anyway, I digress. Intecture, as it says in the pretentious strapline, is _a_ systems management tool. This means that it helps you (the user) to configure your various systems, like web servers, databases, proxies, firewalls and such. Intecture supports several flavours of Linux, FreeBSD and MacOS, running on either virtual or physical hardware, and provides generic/cross-platform interfaces for managing the filesystem, packages and services on those systems.
+As it says in the pretentious strapline, Intecture is _a_ systems management tool. This means that it helps you (the user) to configure your various systems, like web servers, databases, proxies, firewalls and such. Intecture supports several flavours of Linux, FreeBSD and MacOS, running on either virtual or physical hardware, and provides generic/cross-platform interfaces for managing the filesystem, packages and services on those systems.
 
 ### No thanks! My shell works just fine.
 
