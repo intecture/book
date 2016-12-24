@@ -16,7 +16,7 @@ To make Intecture do stuff, you need to create an Intecture **Project** via the 
 
 Inside your Project, your _code_ is used to drive Intecture, via the **API**. The API provides you with abstractions for doing things to your managed hosts, like creating directories, installing packages and lots more. You'll firstly use the API to connect to a host, then use other API endpoints to define what you want the host to do (its configuration).
 
-In order to wrangle Intecture's systems, we've also built a **CLI** tool. The CLI helps you to create and run your Project(s), interrogate the Auth server and [bootstrap new Managed hosts](/ch02-01-lifecycle-scene.html#Bootstrapping%20a%20host).
+In order to wrangle Intecture's systems, we've also built a **CLI** tool. The CLI helps you to create and run your Project(s), interrogate the Auth server and [bootstrap new Managed hosts](ch02-01-lifecycle-scene.html#Bootstrapping%20a%20host).
 
 >We will sprinkle CLI commands throughout the book as we come across them, so don't worry about learning them all now!
 
