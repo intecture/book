@@ -3,7 +3,7 @@
 - [Introduction](./ch01-00-introduction.md)
     - [Core Concepts](./ch01-01-intro-core-concepts.md)
     - [Installation](./ch01-02-intro-installation.md)
-    - [Hello, other world!](./ch01-03-intro-hello-other-world.md)
+    - [Hello, hostname!](./ch01-03-intro-hello-hostname.md)
 - [The Intecture Lifecycle](./ch02-00-lifecycle.md)
     - [Setting the Scene](./ch02-01-lifecycle-scene.md)
     - [Building Blocks](./ch02-02-lifecycle-building-blocks.md)
