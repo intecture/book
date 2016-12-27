@@ -117,7 +117,6 @@ Let's edit `main.rs` and make it look like this:
 
 ```rust
 #[macro_use]
-#[macro_use]
 extern crate inapi;
 
 use inapi::Host;
