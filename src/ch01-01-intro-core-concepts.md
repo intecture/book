@@ -6,17 +6,17 @@ Intecture has a number of components that make up a functioning system. You can 
   <img alt="Recommended layout" src="diagrams/ch01-01-recommended-layout.dot.svg">
 </p>
 
-As the diagram suggests, there are four main components that make up Intecture: _Agent_, _API_, _Auth_ and _CLI_. The _Dev machine_ also hosts your Intecture Project.
+As the diagram suggests, there are four main components that make up Intecture: _Agent_, _API_, _Auth_ and _CLI_. The _Dev box_ also hosts your Intecture Project.
 
-The **Auth server** runs the **Auth** component, which handles security. It acts as a trusted broker between your _Dev machine_ and your _Managed hosts_. It also serves as the certificate store for your users and hosts (note that it only stores public keys, not private keys).
+The **Auth server** runs the **Auth** component, which handles security. It acts as a trusted broker between your _Dev box_ and your _Managed hosts_. It also serves as the certificate store for your users and hosts (note that it only stores public keys, not private keys).
 
-The **Dev machine** is the most crowded host. It is responsible for running your Intecture project, which means that all of your code dependencies will live here. It's worth noting that this is pretty cool, because it means that your managed hosts will never need to know about your code, its interpreters/runtimes, package managers etc. Depending on the size of your team, this could be a dedicated host, or your own laptop.
+The **Dev box** is the most crowded host. It is responsible for running your Intecture project, which means that all of your code dependencies will live here. It's worth noting that this is pretty cool, because it means that your managed hosts will never need to know about your code, its interpreters/runtimes, package managers etc. Depending on the size of your team, this could be a dedicated host, or your own laptop.
 
 To make Intecture do stuff, you need to create an Intecture **Project** via the CLI. Projects are simply structured folders that contain your code, data and any other artifacts you require to make your code 'go'. It might be helpful to think of them as a repository; in fact the CLI will generate a new Git repository in the root of your Project when you create it.
 
 Inside your Project, your _code_ is used to drive Intecture, via the **API**. The API provides you with abstractions for doing things to your managed hosts, like creating directories, installing packages and lots more. You'll firstly use the API to connect to a host, then use other API endpoints to define what you want the host to do (its configuration).
 
-In order to wrangle Intecture's systems, we've also built a **CLI** tool. The CLI helps you to create and run your Project(s), interrogate the Auth server and [bootstrap new Managed hosts](ch02-01-lifecycle-scene.html#Bootstrapping%20a%20host).
+In order to wrangle Intecture's systems, we've also built a **CLI** tool. The CLI helps you to create and run your Project(s), interrogate the Auth server and bootstrap new _Managed hosts_.
 
 >We will sprinkle CLI commands throughout the book as we come across them, so don't worry about learning them all now!
 

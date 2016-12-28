@@ -3,7 +3,7 @@ strict digraph recommended_layout {
     ranksep=1
 
     auth [label=<{<b>Auth server</b><br/><i>auth.example.com</i>|Auth}>, shape="record"];
-    dev [label=<{<b>Dev machine</b><br/><i>localhost</i>|API, CLI, <i>Project</i>}>, shape="record"];
+    dev [label=<{<b>Dev box</b><br/><i>localhost</i>|API, CLI, <i>Project</i>}>, shape="record"];
     agent [label=<{<b>Managed hosts</b><br/><i>e.g. web1.example.com</i>|Agent}>, shape="record", style="rounded"];
 
     auth->{dev agent} [dir="both", style=dashed]
