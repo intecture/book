@@ -35,6 +35,21 @@
                 document.write(unescape("%3Cscript src='jquery.js'%3E%3C/script%3E"));
             }
         </script>
+
+        <script type="text/javascript">
+            function showhide_lang_content(value) {
+                $('.lang-content').hide();
+                $('.' + value).show();
+            }
+
+            $(document).ready(function() {
+                showhide_lang_content('rust-power');
+
+                $('select.lang-selector').change(function() {
+                    showhide_lang_content(this.value);
+                });
+            });
+        </script>
     </head>
     <body class="light">
         <!-- Set the theme before any content is loaded, prevents flash -->
