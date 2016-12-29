@@ -1,4 +1,4 @@
-# Dev box
+# Dev Box
 
 Your Dev box is where your code is built and executed, whether that's a dedicated server or your laptop. It runs the _API_ and _CLI_ components.
 

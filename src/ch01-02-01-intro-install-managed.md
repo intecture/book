@@ -1,4 +1,4 @@
-# Managed hosts
+# Managed Hosts
 
 > The _Agent_ is not fully supported on MacOS and there is no binary package for this target. It is recommended not to use Intecture to manage MacOS until support for it improves.
 

@@ -1,4 +1,4 @@
-# Auth server
+# Auth Server
 
 The Auth server runs the Intecture _Auth_ component, which provides authentication and certificate storage for your projects and managed hosts. We recommend that the _Auth_ component is installed on a dedicated machine, though in practise it does not matter where it is installed, provided that it can communicate with projects and hosts across the network.
 
