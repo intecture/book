@@ -19,5 +19,5 @@ msc {
     api<<auth       [label="public key"];
     api->agent      [label="connect to Agent"];
     agent=>agent    [label="validate user public key"];
-    agent->api      [label="connect OK"];
+    api<<agent      [label="connect OK"];
 }
