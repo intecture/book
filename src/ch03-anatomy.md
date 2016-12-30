@@ -34,6 +34,6 @@ No _*_.
 
 Here are some perceived advantages of multiple projects:
 - _"I can support multiple programming languages"_ - Payloads also support multiple programming languages and are not tied to the project's language. They also have the advantage of sharing project data and other payloads in the same project.
-- _"I can separate projects into specific functions/security zones/..."_ - You're doing it wrong. You should use _Payloads_ to handle specific functions and _Data_ to customise a payload for a specific host. Separating projects by concern implies that you are not abstracting your code and/or data correctly. If you think there's a compelling argument against this, you should [get in touch](https://intecture.io/#Get%20in%20touch).
+- _"I can separate projects into specific functions/security zones/..."_ - You're doing it wrong. You should use _Payloads_ to handle specific functions and _Data_ to customise a payload for a specific host. Separating projects by concern implies that you are not abstracting your code and/or data correctly. If you think there's a compelling argument against this, you should [get in touch](/#Get%20in%20touch).
 
 _*_ The only caveat to this is if you are maintaining different _Auth_ servers for different groups of managed hosts. This is one way to work around the current lack of user management, but it **is not future proof**.
