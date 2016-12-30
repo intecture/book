@@ -23,9 +23,3 @@ In order to wrangle Intecture's systems, we've also built a **CLI** tool. The CL
 Finally we have the **Agent**. The Agent lives on your managed hosts, i.e. the servers you want Intecture to configure. It listens for connection attempts from the API, and once authenticated, runs commands that the API sends to it.
 
 >Note that the API does not send raw shell commands. It has a request syntax that the Agent interprets and actions independently. This allows the Agent to action a generic request in an environment-specific way. For example, to install a package, the API will simply ask the Agent to "please install that package". The Agent will then interpret that into a set of instructions specific to the environment it is running in. Bing, bang, bosh!
-
-## Security
-
-Given the current climate, security has taken a front seat in application design. Intecture is written in Rust, which is a strongly typed, compiled language with strong memory and type safety guarantees. This eliminates entire classes of vulnerabilities that have plagued high profile projects in recent history.
-
-Intecture's main attack surface is its sockets. It uses them prolificly to communicate between components - sending commands and sharing information. Both the **Agent** and **Auth** servers establish listeners on several sockets. Intecture relies on ZeroMQ for this purpose, and employs the public key authentication and cryptogaphy technology built into ZeroMQ, called [CurveZMQ](http://curvezmq.org), to secure all of its endpoints. CurveZMQ is open source, independently developed and (to the best of the community's knowledge) not interfered with or compromised by government or other malicious actors.
