@@ -11,10 +11,10 @@ Thus, when working with Intecture, changing to your project's root directory is 
 ## Directory structure
 
 When you create a new project, there are a few files/directories that will be created. Here are the highlights:
-- `data/` Where your static data lives, e.g. host data, config for files/services [(see reference)](ch04-05-02-reference-projects-data.html)
+- `data/` Where your static data lives, e.g. host data, config for files/services [(see reference)](ch05-05-03-reference-projects-data.html)
 - `payloads/` Payloads are units of purpose-specific code, e.g. Installing `Nginx` or configuring `PF`
 - `src/` Global code that is executed on every Intecture run
-- `project.json` The global configuration file for your project [(see reference)](ch04-05-01-reference-projects-json.html)
+- `project.json` The global configuration file for your project [(see reference)](ch05-05-01-reference-projects-json.html)
 
 We'll explore each of these items in more detail in the following sections.
 
