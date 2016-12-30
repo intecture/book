@@ -13,6 +13,12 @@ Select your language:
     <option value="php-runforyourlives">PHP</option>
 </select>
 
+> **What comes first?** Just to clarify early on to avoid confusion,
+> <span class="lang-content rust-power"><code class="hljs">main.rs</code></span>
+> <span class="lang-content c-science"><code class="hljs">main.c</code></span>
+> <span class="lang-content php-runforyourlives"><code class="hljs">main.php</code></span>
+> is always the first file Intecture will look for in a project or a payload.
+
 ## Connecting to a host
 
 The first step in the process is connecting to a host. You'll need a `Host` instance for almost every API interaction, so it's best to get it out of the way quickly.
