@@ -1,16 +1,16 @@
 # The Entry Point
 
-When an Intecture project is run, the _entry point_ is the binary/code file that the _CLI_ executes first. For example, in Rust the entry point is the binary produced by `src/main.rs`. The _CLI_ will create this file for you when you create a new project.
+When an Intecture project is run, the _entry point_ is the binary/code file that the _CLI_ executes first. This is known in Intecture as a _bootstrap_, as it 'bootstraps' your build. For example, in Rust the bootstrap is the binary produced by `src/main.rs`. The _CLI_ will create this file for you when you create a new project.
 
-> See the [Project reference](ch04-05-reference-projects.html) for the _entry point_ for each language.
+> See the [Project reference](ch04-05-reference-projects.html) for the _bootstrap_ for each language.
 
-The code in your entry point file is responsible for connecting to a host and running payloads for that host as required. It is strongly recommended that you don't put any configuration code into this file, unless it pertains to gathering metadata for a host. For example, you could use the entry point file to lookup build data from an external database and pass it to your payloads.
+The code in your bootstrap file is responsible for connecting to a host and running payloads for that host as required. It is strongly recommended that you don't put any configuration code into this file, unless it pertains to gathering metadata for a host. For example, you could use the bootstrap file to lookup build data from an external database and pass it to your payloads.
 
 **In most cases this file should be left alone entirely.**
 
 ## A sneak peek
 
-Can't resist a look? Well here's a breakdown of a Rust project's entry point, `src/main.rs`:
+Can't resist a look? Well here's a breakdown of a Rust project's bootstrap, `src/main.rs`:
 
 ```rust
 fn main() {
@@ -46,11 +46,11 @@ fn run(name: &str) -> Result<(), Error> {
 
 As we can see from the first few lines of `main()`, the binary insists on receiving a single argument - a server name. This name maps to a data file, which contains the connection data for that host.
 
-> To pass arguments to your entry point, just append them to the `run` command. For example, `incli run arg1 arg2`.
+> To pass arguments to your bootstrap, just append them to the `run` command. For example, `incli run arg1 arg2`.
 
 Then in `run()`, a host connection is established, using the user argument to map to a host data file. Finally the `_payloads` array is traversed and each payload is executed for the current host.
 
-The same logic in this example applies to the entry points for every language supported by Intecture.
+The same logic in this example applies to the bootstraps for every language supported by Intecture.
 
 #### A quick note on names
 
