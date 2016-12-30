@@ -37,4 +37,5 @@
         - [`incli user`](./ch05-04-05-reference-cli-user.md)
     - [Projects](./ch05-05-reference-projects.md)
         - [project.json](./ch05-05-01-reference-projects-json.md)
-        - [Data](./ch05-05-02-reference-projects-data.md)
+        - [payload.json](./ch05-05-02-reference-projects-payload.md)
+        - [Data](./ch05-05-03-reference-projects-data.md)
