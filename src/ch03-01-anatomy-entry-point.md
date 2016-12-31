@@ -2,7 +2,7 @@
 
 When an Intecture project is run, the _entry point_ is the binary/code file that the _CLI_ executes first. This is known in Intecture as a _bootstrap_, as it 'bootstraps' your build. For example, in Rust the bootstrap is the binary produced by `src/main.rs`. The _CLI_ will create this file for you when you create a new project.
 
-> See the [Project reference](ch04-05-reference-projects.html) for the _bootstrap_ for each language.
+> See the [Project reference](ch05-05-reference-projects.html) for the _bootstrap_ for each language.
 
 The code in your bootstrap file is responsible for connecting to a host and running payloads for that host as required. It is strongly recommended that you don't put any configuration code into this file, unless it pertains to gathering metadata for a host. For example, you could use the bootstrap file to lookup build data from an external database and pass it to your payloads.
 
