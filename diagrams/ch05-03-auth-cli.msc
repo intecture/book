@@ -1,0 +1,12 @@
+msc {
+    cli [label="CLI"],
+    auth [label="Auth"],
+    agent [label="Agent"];
+
+    cli->auth       [label="run command"];
+    cli<<auth       [label="result data"];
+    |||;
+    ---             [label="If CLI modified a user"];
+    |||;
+    auth->agent     [label="publish changes"];
+}

@@ -1,0 +1,14 @@
+msc {
+    auth [label="Auth"],
+    agent [label="Agent"];
+
+    |||;
+    ---             [label="Agent start up"];
+    |||;
+    agent->auth     [label="request user certs"];
+    agent<<auth     [label="user certs"];
+    |||;
+    ---             [label="If a user is modified"];
+    |||;
+    auth->agent     [label="publish changes"];
+}

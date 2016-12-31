@@ -1,17 +1,8 @@
 msc {
     api [label="API"],
-    auth [label="Auth Server"],
+    auth [label="Auth"],
     agent [label="Agent"];
 
-    |||;
-    api note api        [label="Implemented in your code"],
-    agent note agent    [label="Running on managed host"];
-    |||;
-    ---             [label="Agent start up"];
-    |||;
-    agent=>agent    [label="start"];
-    agent->auth     [label="request user certs"];
-    agent<<auth     [label="user certs"];
     |||;
     ---             [label="Run project"];
     |||;
