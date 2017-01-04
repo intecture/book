@@ -4,11 +4,7 @@ function showhide_lang_content(value) {
 }
 
 $(document).ready(function() {
-    var q = document.URL.split('?')[1];
-    if (q != null) {
-        var l = /^inlang=(c|php|rust)/.exec(q);
-    }
-
+    var l = /\/book\/(c|php|rust)\//.exec(document.URL);
     if (l != null) {
         showhide_lang_content('lang-' + l[1]);
     } else {
