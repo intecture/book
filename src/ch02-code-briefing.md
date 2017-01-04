@@ -156,6 +156,11 @@ assert(v);
 ```
 </div>
 
+<div class="lang-content lang-rust lang-c">
+
+> Tip: If you've asked for a valid data pointer but you're getting nothing back, it could be that you're asking for the wrong data type. Remember this before beating your head on the screen!
+</div>
+
 <div class="lang-content lang-php">
 In PHP, you are provided with an associative array of all of your data. It couldn't be easier!
 
