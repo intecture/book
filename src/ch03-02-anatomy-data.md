@@ -165,9 +165,7 @@ Let's rewrite our Rust example using data conditions to aid our cause:
             "?": "/_telemetry/os/platform = debian",
             "_": "libssl-dev"
         },
-        {
-            "_": "I SHOULD REALLY USE A MORE HELPFUL DEFAULT VALUE!!!!"
-        }
+        "I SHOULD REALLY USE A MORE HELPFUL DEFAULT VALUE!!!!"
     ]
 }
 ```
