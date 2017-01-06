@@ -206,9 +206,9 @@ Pointers can only refer to data that they reference. For example, take these two
         "?": "/nginx/should_install = 1",
         "_": "nginx"
     },
-    "_include": {
+    "_include": [
         "payload: nginx"
-    }
+    ]
 }
 ```
 
@@ -235,9 +235,9 @@ Those data files will result in this merged data:
 {
     "name": "Pete",
     "pkgs_to_install": "nginx",
-    "_include": {
+    "_include": [
         "payload: nginx"
-    },
+    ],
     "nginx": {
         "should_install": 1
     },
