@@ -123,9 +123,9 @@ On merge, we get:
 
 Note that due to the hierarchical nature of the parser's inheritence laws, the overwrite operator cannot be used to force a lower level value to overwrite a higher one. In that case, the `!` would be ignored and the data would be merged.
 
-### 5. Data can tell you what to do
+### 5. Data can think for themselves
 
-We are still working on their ability to add more vegetables to your shopping list, but right now data are able to decide for themselves what value they resolve to. These are called _conditions_.
+In computing, we have one perfect operating system, one perfect programming language, one perfect daemon and one perfect filesystem. Unfortunately, however, no one agrees with me. As a result, managing systems will almost invariably involve dealing with heterogeneous environments. This makes a static data set rather difficult to wield, which is why Intecture's data uses _conditions_ to adapt to the environment.
 
 Take the example of a package, say OpenSSL. To install OpenSSL's development package on CentOS, I'd run:
 
@@ -151,8 +151,6 @@ let pkg = match os {
 ```
 
 That isn't too bad, is it? Perhaps not, but it can definitely be improved by using the parser's kick arse _conditions_ engine! Introducing the _condition_ (`?`) operator.
-
-_Crowd claps politely_
 
 Let's rewrite our Rust example using data conditions to aid our cause:
 
@@ -181,7 +179,7 @@ let pkg_name = needstr!(host.data_owned() => "/pkg")?;
 let pkg = Package::new(&mut host, pkg_name, None)?,
 ```
 
-The conditions lexer/parser can handle much more substantial queries too. For the full skinny, see the [Projects data reference](ch05-05-03-reference-projects-data.html).
+The conditions lexer/parser can handle much more substantial queries too. For the full skinny, see the [Projects data reference](ch05-05-03-reference-projects-data.html#Conditions).
 
 ### 6. Data know things that you don't
 
