@@ -177,7 +177,7 @@ let pkg_name = needstr!(host.data_owned() => "/pkg")?;
 let pkg = Package::new(&mut host, pkg_name, None)?,
 ```
 
-The conditions lexer/parser can handle much more substantial queries too. For the full skinny, see the [Projects data reference](ch05-05-03-reference-projects-data.html#Conditions).
+The conditions lexer/parser can handle much more substantial queries too. For the full skinny, see the [Projects data reference](ch05-05-03-reference-projects-data.html#conditions).
 
 ### 6. Data know things that you don't
 
@@ -187,4 +187,4 @@ Telemetry is really useful for making your code cross-platform compatible. You c
 
 To access telemetry data, simply read values from the `_telemetry` index in the root namespace.
 
-For a full list of telemetry data gathered by Intecture, read the [Projects data reference](ch05-05-03-reference-projects-data.html#Telemetry).
+For a full list of telemetry data gathered by Intecture, read the [Projects data reference](ch05-05-03-reference-projects-data.html#telemetry).

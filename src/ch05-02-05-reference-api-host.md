@@ -142,9 +142,9 @@ As the name implies, this should only be used from within a payload. The data fo
 
 #### `host_data(...)`</div>
 
-Returns the data specified in your data files for the managed host, as well as data gathered from the host, called [_Telemetry_](ch05-05-03-reference-projects-data.html#Telemetry).
+Returns the data specified in your data files for the managed host, as well as data gathered from the host, called [_Telemetry_](ch05-05-03-reference-projects-data.html#telemetry).
 
-To query your data, Intecture has provided you with some helpers. See the [code briefing](ch02-code-briefing.html#Getting%20data) for the low-down.
+To query your data, Intecture has provided you with some helpers. See the [code briefing](ch02-code-briefing.html#getting-data) for the low-down.
 
 <div class="lang-content lang-rust">
 

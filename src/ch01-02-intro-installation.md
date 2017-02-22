@@ -1,8 +1,8 @@
 # Installation
 
-As with any open source project, you can install Intecture by compiling it yourself, or you can download binary packages via the auto-installer. If you choose to compile Intecture yourself, checkout the `Makefile`s for each project, which will do much of the heavy lifting for you. Otherwise, read on!
+Intecture can be installed from prebuilt binaries or compiled from source. We recommend using the installer to download and install the correct binary packages. If you want to compile it yourself however, make sure you read the Installation section for each component in the [Reference chapter](ch05-reference.html).
 
-> The rest of the chapter assumes that you will use the auto-installer. If you aren't confident in your ability to fill in the blanks, best avoid manual compilation.
+> The rest of this chapter assumes that you will use the installer. If you aren't confident in your ability to fill in the blanks, best avoid manual compilation.
 
 ## Auto-installer
 

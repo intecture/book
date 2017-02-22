@@ -299,7 +299,7 @@ Not much has changed, but now the query returns `true`! Hooray.
 
 ## Telemetry
 
-Telemetry data are the data collected by Intecture automatically when a [`Host` primitive](ch05-02-04-reference-api-host.html) connects to a managed host. Here is a full list of data collected:
+Telemetry data are the data collected by Intecture automatically when a [`Host` primitive](ch05-02-05-reference-api-host.html) connects to a managed host. Here is a full list of data collected:
 
 #### CPU
 

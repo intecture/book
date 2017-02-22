@@ -8,17 +8,17 @@ The _API_ is predominantly made up of structures that form the building blocks o
 
 Here is the full list of primitives:
 
-- [Command](ch05-02-01-reference-api-command.html)
-- [Directory](ch05-02-02-reference-api-directory.html)
-- [File](ch05-02-03-reference-api-file.html)
-- [Host](ch05-02-04-reference-api-host.html)
-- [Package](ch05-02-05-reference-api-package.html)
-- [Service](ch05-02-07-reference-api-service.html)
-- [Template](ch05-02-08-reference-api-template.html)
+- [Command](ch05-02-02-reference-api-command.html)
+- [Directory](ch05-02-03-reference-api-directory.html)
+- [File](ch05-02-04-reference-api-file.html)
+- [Host](ch05-02-05-reference-api-host.html)
+- [Package](ch05-02-06-reference-api-package.html)
+- [Service](ch05-02-08-reference-api-service.html)
+- [Template](ch05-02-09-reference-api-template.html)
 
 ## Payload helpers
 
-The _API_ also provides a structure for running payloads, which looks after process execution and proxying your host connection. See [Payload reference](ch05-02-06-reference-api-payload.html).
+The _API_ also provides a structure for running payloads, which looks after process execution and proxying your host connection. See [Payload reference](ch05-02-07-reference-api-payload.html).
 
 ## Programming reference
 

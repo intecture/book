@@ -22,7 +22,7 @@ It should also go without saying that if you use a payload that you did not crea
 
 ## 2. Socket listeners
 
-Both the _Agent_ and _Auth_ servers establish listeners on several sockets in order to receive incoming requests. You can confirm which ports Intecture is listening on by checking the [Agent](ch05-01-01-reference-agent-json.html) and [Auth](ch05-03-01-reference-auth-json.html) config files. By default they use `7101` + `7102` and `7103` + `7104` respectively.
+Both the _Agent_ and _Auth_ servers establish listeners on several sockets in order to receive incoming requests. You can confirm which ports Intecture is listening on by checking the [Agent](ch05-01-02-reference-agent-json.html) and [Auth](ch05-03-02-reference-auth-json.html) config files. By default they use `7101` + `7102` and `7103` + `7104` respectively.
 
 ### Mitigation
 
@@ -32,7 +32,7 @@ As a user, you should **keep your private keys secure**. Never share them with a
 
 ## 3. Auth server
 
-The _Auth_ server itself is another targer for attackers. On this server, the main attack vector is the certificate store, which by default is located at `<system_dir>/intecture/certs/`. Check your [Auth server config](ch05-03-01-reference-auth-json.html) to confirm.
+The _Auth_ server itself is another targer for attackers. On this server, the main attack vector is the certificate store, which by default is located at `<system_dir>/intecture/certs/`. Check your [Auth server config](ch05-03-02-reference-auth-json.html) to confirm.
 
 There is also the Auth CLI (`inauth_cli`) which is used to manually add certificates to the store.
 

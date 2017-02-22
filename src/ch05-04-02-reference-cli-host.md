@@ -27,7 +27,7 @@ This is because the _Auth_ server stores the host certificate as `web1.example.c
 Bootstrapping a host allows you to automatically setup and configure a new managed host remotely. When bootstrapping, the CLI does a few things:
 
 1. Creates a new host certificate
-2. Installs the _Agent_ using the [auto-installer](ch01-02-intro-installation.html#Auto-installer)
+2. Installs the _Agent_ using the [auto-installer](ch01-02-intro-installation.html#auto-installer)
 3. Installs the _Agent_ private key and _Auth_ public key
 4. Configures [`agent.json`](ch05-01-01-reference-agent-json.html) using the values in your [`project.json`](ch05-05-01-reference-projects-json.html)
 5. Starts the _Agent_ service

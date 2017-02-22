@@ -76,7 +76,7 @@ Check if the file exists.
 
 Uploads a local file to your managed host.
 
-See [Options](#Options) for controlling upload behaviour.
+See [Options](#options) for controlling upload behaviour.
 
 <div class="lang-content lang-rust lang-php">
 
@@ -85,9 +85,9 @@ See [Options](#Options) for controlling upload behaviour.
 
 #### `file_upload_file(...)`</div>
 
-Uploads a file resource to your managed host. This is usually used in conjunction with the [`Template` primitive](ch05-02-08-reference-api-template.html), which produces a file resource.
+Uploads a file resource to your managed host. This is usually used in conjunction with the [`Template` primitive](ch05-02-09-reference-api-template.html), which produces a file resource.
 
-See [Options](#Options) for controlling upload behaviour.
+See [Options](#options) for controlling upload behaviour.
 
 <div class="lang-content lang-rust lang-php">
 

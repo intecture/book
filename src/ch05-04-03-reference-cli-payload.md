@@ -8,7 +8,7 @@ To create a payload, use the `init` subcommand from your project root:
 incli payload init nginx rust
 ```
 
-You can create payloads in any [supported language](ch01-02-intro-installation.html#System%20Requirements), irrespective of the project's language.
+You can create payloads in any [supported language](ch01-02-intro-installation.html#system-requirements), irrespective of the project's language.
 
 ### Build payloads
 

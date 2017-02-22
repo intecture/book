@@ -16,7 +16,7 @@ Payloads have a special format for identifying the correct payload and action yo
 payload[::action]
 ```
 
-Note that the `::action` is optional. If it is omitted, the [default binary/code file](ch05-05-reference-projects.html#Bootstrap%20files) will be executed.
+Note that the `::action` is optional. If it is omitted, the default binary/code file, called a [bootstrap](ch05-05-reference-projects.html#bootstrap-files), will be executed.
 
 ### Example
 

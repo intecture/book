@@ -68,7 +68,7 @@ Check if the directory exists.
 
 #### `directory_create(...)`</div>
 
-Create the directory. You can optionally create recursively - see [Options](#Options).
+Create the directory. You can optionally create recursively - see [Options](#options).
 
 <div class="lang-content lang-rust lang-php">
 
@@ -77,7 +77,7 @@ Create the directory. You can optionally create recursively - see [Options](#Opt
 
 #### `directory_delete(...)`</div>
 
-Delete the directory. You can optionally delete recursively - see [Options](#Options).
+Delete the directory. You can optionally delete recursively - see [Options](#options).
 
 <div class="lang-content lang-rust lang-php">
 

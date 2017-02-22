@@ -4,7 +4,7 @@ The _Auth_ component provides Intecture with a trusted certificate store and aut
 
 ## Certificate store
 
-The certificate store is a directory on the _Auth_ server, elected by the configuration key `cert_path` (see [auth.json](ch05-03-01-reference-auth-json.html)). This directory stores plaintext user and host public key certificates.
+The certificate store is a directory on the _Auth_ server, elected by the configuration key `cert_path` (see [auth.json](ch05-03-02-reference-auth-json.html)). This directory stores plaintext user and host public key certificates.
 
 > While it would seem sensible to store certificates in an encrypted format, the _Auth_ server **only** stores public keys, which would not be of any assistance to an attacker.
 

@@ -34,7 +34,7 @@ it would be run like this on your managed host:
 /bin/sh -c "whoami"
 ```
 
-If you want to run commands specific to another interpreter, you must specify the interpreter in your command string, for example, `whoami` becomes `bash -c "whoami"`. It is your responsibility to ensure that the interpreter is installed on the host. This is pretty trivial using the [`Package` primitive](ch05-02-05-reference-api-package.html). Just saying...
+If you want to run commands specific to another interpreter, you must specify the interpreter in your command string, for example, `whoami` becomes `bash -c "whoami"`. It is your responsibility to ensure that the interpreter is installed on the host. This is pretty trivial using the [`Package` primitive](ch05-02-06-reference-api-package.html). Just saying...
 
 > Note that `Command` is not idempotent, so you must ensure that this primitive is safe to run repeatedly without side effects.
 
