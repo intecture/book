@@ -84,7 +84,7 @@ is _only_ used in your [payloads](ch03-03-anatomy-payloads.html).
 > For the eagle eyed, the previous chapter contained an example which used
 > <span class="lang-content lang-rust lang-php"><code class="hljs">Host::connect_endpoint</code>.</span>
 > <span class="lang-content lang-c"><code class="hljs">host_connect_endpoint</code>.</span>
-> This is the retarded cousin of
+> This is the poor cousin of
 > <span class="lang-content lang-rust lang-php"><code class="hljs">Host::connect</code></span>
 > <span class="lang-content lang-c"><code class="hljs">host_connect</code></span>
 > and is generally not recommended. However for very basic projects that don't need separate data files,
