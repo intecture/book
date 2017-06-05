@@ -14,20 +14,20 @@ curl https://sh.rustup.rs -sSf | sh
 . ~/.cargo/env
 ```
 
-## 2. Setup your project
+## 2. Setup your project (optional)
 
-Now let's setup a new Intecture project that we can play around with:
+In step 1.2.2 you setup your first Intecture project. If you want to follow along, you can reuse that project, or you can create a new one by saying the magic words:
 
 ```bash
 incli project init hello-hostname rust
 cd hello-hostname
 ```
 
-Remember to copy your `user.crt`, `auth.crt` and `project.json` from the original project.
+>Remember to copy your `user.crt`, `auth.crt` and `project.json` from the original project.
 
 ## 3. Hello \<hostname\>
 
-Let's edit `main.rs` and make it look like this, substituting `<hostname>` on line 7 with the hostname/IP address of a managed host:
+Let's edit `main.rs` and make it look like this, substituting `<hostname>` on line 7 with the hostname/IP address of your managed host:
 
 ```rust
 #[macro_use]
@@ -47,10 +47,15 @@ Finally, let's say hello!
 incli run
 ```
 
-After some consternation from the compiler, your project should say hello. In doing so, it's done a round trip to the _Agent_ on your managed host, after authenticating you with the _Auth_ server.
+After some consternation from the compiler, your project should say hello. In doing so, it's done a round trip to the _Agent_ on your managed host, after authenticating you and your host with the _Auth_ server.
 
 Here's one I prepared earlier:
 
 ```
+$ incli run
+...
+compiler drama
+...
 Hello, pete.local!
+$
 ```
