@@ -6,7 +6,7 @@ As it says in the pretentious strapline, Intecture is _a_ systems management too
 
 ### No thanks! My shell works just fine.
 
-That's true. SSH + a terminal is a very simple, effective way to manage a server. But what happens when you have 10 servers? Or 100? Or a googolplex? _"Ok, no biggie. I'll just write a bash script and push it to all the servers."_ Yes, you could do that. But are your servers all homogenous, or do you have to write a script for different OSes? And don't forget the different versions of those different OSes. Are some of them running `systemd` and some of them `init`? How about package managers? Can you just run `yum update -y openssl-devel`, or is it `apt-get -y install libssl-dev`? Or both?
+That's true. SSH + a terminal is a very simple, effective way to manage a server. But what happens when you have 10 servers? Or 100? Or a googolplex? _"Ok, no biggie. I'll just write a bash script and push it to all the servers."_ Yes, you could do that. But are your servers all homogenous, or do you have to write a script for different OSes? And don't forget the different versions of those different OSes. Are some of them running `systemd` and some of them `init`? How about package managers? Can you just run `yum -y install openssl-devel`, or is it `apt-get -y install libssl-dev`? Or both?
 
 Yes, I am belabouring the point, but at some stage we all need to find better ways of dealing with the cost of systems growth. Especially when we want to do _hyper web scale_! Intecture is here to help address that cost.
 
