@@ -24,7 +24,7 @@ For more information, check out the [Auth reference](ch05-03-reference-auth.html
 
 ## Responsible disclosure
 
-Intecture is an open source project, which freely gives away it's IP. We can't yet fund a bug bounty programme, though if you're a supporter of Intecture and wish to responsibly disclose a vulnerability, we would seriously appreciate it.
+Intecture is an open source project, which freely gives away its IP. We can't yet fund a bug bounty programme, though if you're a supporter of Intecture and wish to responsibly disclose a vulnerability, we would seriously appreciate it.
 
 Please email [se&#99;urity&#64;&#105;ntecture&#46;io](mailto&#58;&#115;e&#99;u&#114;%69&#116;y&#64;&#105;nt&#101;&#99;t&#117;re&#46;i&#111;).
 
